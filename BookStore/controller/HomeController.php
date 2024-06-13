@@ -94,8 +94,8 @@ class HomeController {
         require 'Facebook/autoload.php';
 
         $fb = new Facebook\Facebook([
-        'app_id' => '494487603008368', // Replace {app-id} with your app id
-        'app_secret' => 'c405d8e805a19e64e3c52ea82f783a8f',
+        'app_id' => '', // Replace {app-id} with your app id
+        'app_secret' => '',
         'default_graph_version' => 'v19.0',
         ]);
         
