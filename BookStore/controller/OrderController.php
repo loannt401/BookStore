@@ -145,8 +145,6 @@ class OrderController {
         $bank->ACCOUNT_NAME = "NGUYEN THI LOAN";
 
         $image_url = "https://img.vietqr.io/image/{$bank->BANK_ID}-{$bank->ACCOUNT_NO}-{$bank->TEMPLATE}.png?amount={$bank->AMOUNT}&addInfo=" . urlencode($bank->DESCRIPTION) . "&accountName=" . urlencode($bank->ACCOUNT_NAME);
-        
-        $API_KEY = "AK_CS.f0aa5510152611efb59ad709086e66d7.80HycLCzHtd9j08bGuYd86zXxSbQm311ioJ7OL42TXDxwRuxa5EFSJ6YpuDAUHiCy3mmwgyc";
 
         require 'view/templates/PayOnlineQRFrm.php';
     }  

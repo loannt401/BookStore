@@ -63,7 +63,7 @@
 
 <script type="text/javascript">
     const currentDate = new Date().toISOString().split('T')[0];
-    const apiKey = "AK_CS.f0aa5510152611efb59ad709086e66d7.80HycLCzHtd9j08bGuYd86zXxSbQm311ioJ7OL42TXDxwRuxa5EFSJ6YpuDAUHiCy3mmwgyc";
+    const apiKey = "";
     const aptGetPaid = "https://oauth.casso.vn/v2/transactions?fromDate=${currentDate}&page=1&pageSize=1&sort=DESC";
     const paidPrice = <?php echo $bank->AMOUNT ?>;
     const paidDes = <?php echo json_encode($bank->DESCRIPTION) ?>;
